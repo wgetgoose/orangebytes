@@ -1,0 +1,73 @@
+/* Loads font to match logo - technically illegal */
+@font-face {
+    font-family: "aktiv-grotesk";
+    src: url("/AktivGroteskCorp-Regular.ttf") format("truetype");
+}
+/* Removes random white space from sides */
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* removes blue color and underline */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* removes bullets */
+ul li{
+    list-style: none;
+    display: inline;
+    /* padding: 5px; */
+}
+
+/* top left logo */
+.logo {
+    width: 300px;
+    height: auto;
+    padding: 5px;
+}
+
+.darkgray {
+    background-color: #26292b;
+    font-family: 'aktiv-grotesk';
+}
+
+/* moves the items in from the sides + flex */
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+/* flex the header with hyperlinks */
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.right-links {
+    padding-right: 5px;
+    color: white;
+    display: flex;
+    letter-spacing: 1px;
+    gap: 15px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.tired {
+    font-size: 32px;
+    margin-left: 2rem;
+    flex-shrink: 0;
+}
+
+.gifsplash {
+    display: flex;
+    justify-content: center;
+}
