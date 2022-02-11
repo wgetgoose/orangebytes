@@ -1,8 +1,11 @@
 /* Loads font to match logo - technically illegal */
 @font-face {
     font-family: "aktiv-grotesk";
-    src: url("/AktivGroteskCorp-Regular.ttf") format("truetype");
+    src: url("/fonts/AktivGroteskCorp-Regular.ttf") format("truetype"),
+         url("/fonts/AktivGroteskCorp-Regular.woff") format("woff"),
+         url("/fonts/AktivGroteskCorp-Regular.woff2") format("woff2");
 }
+
 /* Removes random white space from sides */
 body{
     margin: 0px;
@@ -67,7 +70,39 @@ ul li{
     flex-shrink: 0;
 }
 
-.gifsplash {
+.ronswanson {
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.values {
+    color: white;
+}
+
+.boxwrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-flow: row wrap;
+}
+.boxwrapper div {
+    flex-shrink: 0;
+}
+
+.box-star {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
+.box {
+    background-color: #3E4346;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 1em;
+    width: 20vw;
+    display: flex;
+    align-items: center;
 }
