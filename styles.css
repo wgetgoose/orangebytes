@@ -76,18 +76,11 @@ ul li{
     margin-bottom: 1rem;
 }
 
-.values {
-    color: white;
-}
-
 .boxwrapper {
     display: flex;
     justify-content: center;
     gap: 2em;
     flex-flow: row wrap;
-}
-.boxwrapper div {
-    flex-shrink: 0;
 }
 
 .box-star {
@@ -105,4 +98,5 @@ ul li{
     width: 20vw;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
