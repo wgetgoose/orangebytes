@@ -24,7 +24,6 @@ a {
 ul li{
     list-style: none;
     display: inline;
-    /* padding: 5px; */
 }
 
 /* top left logo */
@@ -36,7 +35,6 @@ ul li{
 
 .darkgray {
     background-color: #26292b;
-    /* font-family: 'aktiv-grotesk'; */
 }
 
 /* moves the items in from the sides + flex */
@@ -74,7 +72,7 @@ ul li{
 .ronswanson {
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .boxwrapper {
@@ -82,12 +80,14 @@ ul li{
     justify-content: center;
     gap: 2em;
     flex-flow: row wrap;
+    margin-bottom: 3rem;
 }
 
 .box-star {
     display: flex;
     flex-flow: column nowrap;
     gap: 1em;
+    text-align: center;
 }
 
 .box {
@@ -119,6 +119,21 @@ ul li{
     margin-left: 12%;
     margin-right: 12%;
     padding: 0.4em;
+}
+
+.whatwedo {
+    margin-top: 5rem; 
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#right {
+    text-align: right;
+    padding: 0rem 4rem;
 }
 
 .footer {
