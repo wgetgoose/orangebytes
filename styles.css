@@ -104,21 +104,11 @@ ul li{
     flex-shrink: 0;
 }
 
-.testimonial {
-    color: white;
-}
-
 .lightgray {
     background-color: #3E4346;
     color: white;  
     font-size: 30px;
     /* padding: 5px; */
-}
-
-.quote {
-    margin-left: 12%;
-    margin-right: 12%;
-    padding: 0.4em;
 }
 
 .whatwedo {
@@ -139,7 +129,8 @@ ul li{
 .footer {
     display: flex;
     font-size: 18px;
-    justify-content: center;
+    justify-content: space-between;
     color: white;
     padding: 2rem;
+    margin: 0% 12%;
 }
