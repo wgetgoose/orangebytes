@@ -101,15 +101,11 @@ ul li{
     font-size: 24px;
     text-align: center;
     padding: 1em;
-    /* the viewport width makes the boxes do funny things, for now keep px size even though relative sizes are better (maybe rem later) */
-    /* width: 20vw; */
     width: 300px;
     display: flex;
     align-items: center;
     flex-shrink: 0;
 }
-
-
 
 .whatWeDo {
     margin-top: 5rem; 
@@ -129,6 +125,35 @@ ul li{
 
 .middleText {
     margin: 20px 0px;
+}
+
+.stepsWrapper {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin: 0% 5%;
+}
+
+.invisibleBox {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #3E4346;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.circleParagraph {
+    margin: 0px 50px;
+    text-align: center; 
+    font-size: 24px; 
+    padding: 20px 0px;
+}
+
+.circleHeading {
+    text-align: center; 
+    margin-bottom: 0;
 }
 
 .footer {
