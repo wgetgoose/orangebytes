@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "aktiv-grotesk", "Open Sans";
+    color: white;
 }
 
 /* removes blue color and underline */
@@ -33,8 +34,12 @@ ul li{
     padding: 5px;
 }
 
-.darkgray {
+.darkGray {
     background-color: #26292b;
+}
+
+.lightGray {
+    background-color: #3E4346;
 }
 
 /* moves the items in from the sides + flex */
@@ -69,10 +74,10 @@ ul li{
     flex-shrink: 0;
 }
 
-.ronswanson {
+.ronSwanson {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2.2rem;
 }
 
 .boxwrapper {
@@ -104,14 +109,9 @@ ul li{
     flex-shrink: 0;
 }
 
-.lightgray {
-    background-color: #3E4346;
-    color: white;  
-    font-size: 30px;
-    /* padding: 5px; */
-}
 
-.whatwedo {
+
+.whatWeDo {
     margin-top: 5rem; 
     margin-bottom: 5rem;
     margin-left: 2rem;
@@ -124,6 +124,11 @@ ul li{
 #right {
     text-align: right;
     padding: 0rem 4rem;
+}
+
+
+.middleText {
+    margin: 20px 0px;
 }
 
 .footer {
