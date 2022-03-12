@@ -6,9 +6,8 @@
          url("/fonts/AktivGroteskCorp-Regular.woff2") format("woff2");
 }
 
-/* Removes random white space from sides */
 body{
-    margin: 0px;
+    margin: 0px; /* Removes random white space from sides */
     display: flex;
     flex-direction: column;
     font-family: "aktiv-grotesk", "Open Sans";
@@ -131,7 +130,7 @@ ul li{
     display: flex;
     align-items: center;
     flex-flow: column;
-    margin: 0% 5%;
+    margin: 30px 5%;
 }
 
 .invisibleBox {
