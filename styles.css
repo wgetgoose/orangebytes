@@ -155,6 +155,22 @@ ul li{
     margin-bottom: 0;
 }
 
+.getStarted {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 2rem;
+}
+
+.contactUs {
+    font: inherit;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    align-self: center;
+    color: white;
+    background-color: #3E4346;
+    border: 5px solid #3E4346;
+}
+
 .footer {
     display: flex;
     font-size: 18px;
