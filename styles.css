@@ -7,6 +7,10 @@
 }
 
 @media only screen and (max-width: 1279px) {    
+    h2 {
+        margin-left: 0.4rem;
+    }
+    
     .logo {
         width: 35vw;
     }
@@ -69,6 +73,11 @@
         border-radius: 50%;
         justify-content: center;
     }
+
+    .footer {
+        flex-flow: column nowrap;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -128,6 +137,15 @@
     .thirdCircle {
         margin-right: auto; 
         margin-top: -150px;
+    }
+    
+    .circleHeading {
+        margin-bottom: 0;
+    }
+
+    .circleHeadingTwo {
+        margin: 0px 100px;
+        margin-top: 20px;
     }
 }
 
@@ -245,6 +263,10 @@ ul li{
     margin: 20px 0px;
 }
 
+.invisibleBox {
+    margin: 0.7rem 0rem;
+}
+
 .circleParagraph {
     margin: 0px 50px;
     text-align: center; 
@@ -254,7 +276,6 @@ ul li{
 
 .circleHeading {
     text-align: center; 
-    margin-bottom: 0;
 }
 
 .getStarted {
