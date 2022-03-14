@@ -15,5 +15,5 @@ function dyanmicMiddleText() {
             element.style.cssText = "display: flex; align-items: center;"
         });
         return;
-    }
-}
+    };
+};
