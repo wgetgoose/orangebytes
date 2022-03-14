@@ -1,4 +1,4 @@
-const smallMediaQuery = window.matchMedia('(max-width: 1279px');
+const smallMediaQuery = window.matchMedia('screen and (max-width: 1279px)');
 smallMediaQuery.addEventListener("resize", dyanmicMiddleText());
 
 dyanmicMiddleText();
