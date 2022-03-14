@@ -8,19 +8,23 @@
 
 @media only screen and (max-width: 1279px) {    
     .logo {
-        width: 200px;
+        width: 35vw;
     }
 
     .header {
         flex-flow: column wrap;
         align-items: center;
         align-content: center;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .whatWeDo {
         flex-flow: column;
         text-align: center;
+        padding: 0;
+        width: 75vw;
+        align-self: center;
+        margin-left: 0;
     }
 
     #rightText {
@@ -34,11 +38,11 @@
     }
 
     .main {
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .right-links {
-        padding-left: 0px;
+        padding-left: 0;
     }
     
     .flexRon {
@@ -46,6 +50,25 @@
         height: auto;
     }
 
+    #left {
+        padding-right: 0;
+        font-size: 2rem;
+    }
+
+    .stepsWrapper {
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+        margin: 30px 5%;
+    }
+
+    .invisibleBox {
+        background-color: #3E4346;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -64,6 +87,47 @@
     .flexRon {
         width: 50vw;
         height: auto;
+    }
+
+    .whatWeDo {
+        padding: 1rem 2rem;
+        margin-left: 2rem;
+    }
+
+    #left {
+        padding-right: 4rem;
+        font-size: 42px;
+    }
+
+    .invisibleBox {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #3E4346;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        justify-content: center;
+    }
+
+    .stepsWrapper {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        margin: 30px 5%;
+    }
+
+    .firstCircle {
+        margin-right: auto;
+    }
+
+    .secondCircle {
+        margin-left: auto; 
+        margin-top: -200px;
+    }
+
+    .thirdCircle {
+        margin-right: auto; 
+        margin-top: -150px;
     }
 }
 
@@ -166,11 +230,9 @@ ul li{
 .whatWeDo {
     margin-top: 5rem; 
     margin-bottom: 5rem;
-    margin-left: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 2rem;
 }
 
 #right {
@@ -179,31 +241,8 @@ ul li{
     font-size: 32px;
 }
 
-#left {
-    font-size: 42px; 
-    padding-right: 4rem;
-}
-
-
 .middleText {
     margin: 20px 0px;
-}
-
-.stepsWrapper {
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    margin: 30px 5%;
-}
-
-.invisibleBox {
-    display: flex;
-    flex-flow: column wrap;
-    background-color: #3E4346;
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    justify-content: center;
 }
 
 .circleParagraph {
