@@ -170,6 +170,10 @@ ul li{
     display: inline;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 /* top left logo */
 .logo {
     height: auto;
