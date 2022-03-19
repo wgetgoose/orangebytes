@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "aktiv-grotesk";
+    src: url("/fonts/AktivGroteskCorp-Regular.ttf") format("truetype"),
+         url("/fonts/AktivGroteskCorp-Regular.woff") format("woff"),
+         url("/fonts/AktivGroteskCorp-Regular.woff2") format("woff2");
+}
+
+@media only screen and (max-width: 1279px) {
+    .logo {
+        width: 35vw;
+        margin-right: 1.3rem;
+    }
+
+    .header {
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 0;
+    }
+
+    .info {
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bio {
+        width: 85vw;
+    }
+
+    .contact {
+        margin: 0 auto;
+    }
+
+    .info {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .logo {
+        width: 300px;
+    }
+    .main {
+        margin: 0% 12%;
+    }
+    .bio {
+        width: 35vw;
+    }
+    .contact {
+        padding-left: 2rem;
+    }
+
+    .info {
+        font-size: 27px;
+    }
+}
+
+body {
+    margin: 0px; /* Removes random white space from sides */
+    display: flex;
+    flex-direction: column;
+    font-family: "aktiv-grotesk", "Open Sans";
+    color: white;
+    background-color: #26292b;
+}
+
+/* removes blue color and underline */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* removes bullets */
+ul li{
+    list-style: none;
+    display: inline;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.right-links {
+    padding-right: 5px;
+    color: white;
+    display: flex;
+    letter-spacing: 1px;
+    gap: 15px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.info {
+    display: flex;
+}
+
+.vertical {
+    border-right: solid 2px white;
+    margin-left: 20px;
+}
+.portraitWrap {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+ 
+.portrait {
+    width: 50vh;
+    height: auto;
+    box-shadow: 10px 10px 10px #3E4346;
+}
