@@ -17,3 +17,9 @@ function dyanmicMiddleText() {
         return;
     };
 };
+
+let button = document.getElementsByClassName("contactUs");
+button[0].addEventListener("click", transitionButton);
+function transitionButton() {
+    window.location.href = "./contact-us"
+}
