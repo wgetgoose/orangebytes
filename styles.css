@@ -297,6 +297,12 @@ ul {
     color: white;
     background-color: #3E4346;
     border: 5px solid #3E4346;
+    transition: 0.3s;
+}
+
+.contactUs:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.25);
 }
 
 .footer {
@@ -307,3 +313,9 @@ ul {
     padding: 2rem;
     margin: 0% 12%;
 }
+
+.transition {
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
