@@ -22,6 +22,7 @@
         flex-flow: column wrap;
         align-items: center;
         text-align: center;
+        font-size: 22px;
     }
 
     .bio {
@@ -30,10 +31,6 @@
 
     .contact {
         margin: 0 auto;
-    }
-
-    .info {
-        font-size: 22px;
     }
 }
 
@@ -104,6 +101,7 @@ hr {
 
 .info {
     display: flex;
+    padding-bottom: 1rem;
 }
 
 .vertical {
@@ -122,4 +120,17 @@ hr {
     width: 50vh;
     height: auto;
     box-shadow: 10px 10px 10px #3E4346;
+}
+
+.footer {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem;
+    margin: 0% 12%;
+}
+
+.lightGray {
+    background-color: #3E4346;
 }
